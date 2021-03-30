@@ -57,7 +57,7 @@ page_sections:
     schemas!
   media:
     image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-49-27-pm.png"
-    alt_text: ''
+    alt_text: json-schema screenshot from PyCharm
 - template: 1-column-text
   block: one-column-1
   slug: generate
