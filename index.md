@@ -18,8 +18,8 @@ page_sections:
   - link: "#publish"
     link_text: Publish
   cta:
-    url: https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll
-    button_text: Import
+    url: https://github.com/linkml/
+    button_text: GO!
 - template: hero-banner-w-image
   block: hero-2
   slug: features
