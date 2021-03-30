@@ -16,7 +16,7 @@ page_sections:
   - link: "#python"
     link_text: Python
   - link: "#blocks"
-    link_text: Blocks
+    link_text: ''
   cta:
     url: https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll
     button_text: Import
@@ -57,7 +57,7 @@ page_sections:
   headline: "<strong>Generate Python dataclasses</strong>"
   content: LinkML can be used to generate Python data classes!
   media:
-    image: "/uploads/2018/06/21/edit.gif"
+    image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-02-30-pm.png"
     alt_text: Customize Blocks
 - template: full-width-media-element
   block: media-1
