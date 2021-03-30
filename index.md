@@ -55,7 +55,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  slug: python
+  slug: codegen
   headline: "<strong>Generate Python dataclasses</strong>"
   content: LinkML can be used to generate Python data classes!
   media:
