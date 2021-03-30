@@ -12,7 +12,7 @@ page_sections:
   - link: "#model"
     link_text: Model
   - link: "#generate"
-    link_text: Generate
+    link_text: Build
   - link: "#codegen"
     link_text: Codegen
   - link: "#blocks"
