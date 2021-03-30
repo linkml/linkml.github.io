@@ -62,8 +62,8 @@ page_sections:
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2018/06/21/theme.png"
-  caption: All Available Blocks
-  slug: blocks
+  caption: blah
+  slug: publish
 - template: detail-content
   block: text-1
   headline: Steps to Build a Model
