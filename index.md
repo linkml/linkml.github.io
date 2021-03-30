@@ -42,7 +42,7 @@ page_sections:
   content: Use the LinkML modeling language to author models for your schemas and
     data dictionaries
   media:
-    image: "/uploads/2018/06/21/blocks-split.png"
+    image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-05-14-pm.png"
     alt_text: uBuild Blocks Mock-Up
 - template: 1-column-text
   block: one-column-1
