@@ -48,6 +48,16 @@ page_sections:
   media:
     image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-05-14-pm.png"
     alt_text: uBuild Blocks Mock-Up
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  slug: json
+  headline: Linked Data <strong>JSON-ready</strong>
+  content: Generate JSON-Schema and JSON-LD contexts for semantic-web ready and developer-friendly
+    schemas!
+  media:
+    image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-49-27-pm.png"
+    alt_text: ''
 - template: 1-column-text
   block: one-column-1
   slug: generate
