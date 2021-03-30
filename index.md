@@ -47,11 +47,10 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  slug: customize
-  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-    edits throughout your new site</span>
-  content: Each block comes with custom Front Matter that can be edited in Forestry
-    CMS.
+  slug: generate
+  headline: "<strong>Generate downstream artefacts </strong>including JSON-Schema,
+    ShEx, RDF/OWL, GraphQL, and SQL DDL"
+  content: LinkML has adapters to a number of other modeling languages
   media:
     image: "/uploads/2018/06/21/edit.gif"
     alt_text: Customize Blocks
