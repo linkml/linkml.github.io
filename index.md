@@ -8,7 +8,7 @@ page_sections:
   logo: "/uploads/2018/06/21/forestry-full.svg"
   navigation:
   - link: "/"
-    link_text: Ubuild
+    link_text: LinkML
   - link: "#swap"
     link_text: Swap
   - link: "#customize"
