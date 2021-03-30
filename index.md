@@ -59,6 +59,11 @@ page_sections:
   media:
     image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-02-30-pm.png"
     alt_text: Customize Blocks
+- template: 1-column-text
+  block: one-column-1
+  headline: Publish on the web
+  slug: Generate web documentation using themes like ReadTheDocs or Material
+  content: <img src="/uploads/2021/03/30/screen-shot-2021-03-29-at-7-21-58-pm.png">
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2018/06/21/theme.png"
