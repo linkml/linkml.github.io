@@ -47,7 +47,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  slug: generate
+  slug: python
   headline: "<strong>Generate downstream artefacts </strong>including JSON-Schema,
     ShEx, RDF/OWL, GraphQL, and SQL DDL"
   content: LinkML has adapters to a number of other modeling languages
@@ -56,7 +56,7 @@ page_sections:
     alt_text: Customize Blocks
 - template: 1-column-text
   block: one-column-1
-  slug: responsive
+  slug: generate
   headline: 16 Fully Responsive Design Blocks
   content: |
     The Design Blocks can be used without Forestry but to harness the power
