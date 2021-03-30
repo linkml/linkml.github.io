@@ -31,7 +31,7 @@ page_sections:
     url: https://github.com/linkml/linkml
     button_text: 'See on GitHub '
   image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
+    image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-09-55-pm.png"
     alt_text: Product Shot
   background_image: "/uploads/2018/06/21/hero-2-bg.png"
 - template: content-feature
