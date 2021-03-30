@@ -54,9 +54,8 @@ page_sections:
   block: feature-1
   media_alignment: Right
   slug: python
-  headline: "<strong>Generate downstream artefacts </strong>including JSON-Schema,
-    ShEx, RDF/OWL, GraphQL, and SQL DDL"
-  content: LinkML has adapters to a number of other modeling languages
+  headline: "<strong>Generate Python dataclasses</strong>"
+  content: LinkML can be used to generate Python data classes!
   media:
     image: "/uploads/2018/06/21/edit.gif"
     alt_text: Customize Blocks
