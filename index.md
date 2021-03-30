@@ -65,6 +65,16 @@ page_sections:
   slug: Generate web documentation using themes like ReadTheDocs or Material. Publish
     schema artifacts using w3ids.
   content: <img src="/uploads/2021/03/30/screen-shot-2021-03-29-at-7-21-58-pm.png">
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: "<strong>Publish</strong> your schema on the web"
+  slug: The LinkML framework automates publish schema documentation using mkdocs,
+    and assists in publishing schema artefacts using w3id.org
+  media:
+    image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-21-58-pm.png"
+    alt_text: ''
+  content: ''
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2018/06/21/theme.png"
