@@ -42,7 +42,9 @@ page_sections:
   content: Use the LinkML modeling language to author models for your schemas and
     data dictionaries.<br><br>The modeling language is rich employing features such
     as polymorphism, mixins/traits, mapping to ontologies, and control of JSON inlining.
-    At the same time it can be used for simple tasks such as defining data dictionaries.
+    At the same time it can be used for simple tasks such as defining data dictionaries.<br><br>See
+    the <a href="https://linkml.github.io/linkml-model/docs/" title="reference">online
+    Reference Guide</a>
   media:
     image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-05-14-pm.png"
     alt_text: uBuild Blocks Mock-Up
