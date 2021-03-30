@@ -40,7 +40,9 @@ page_sections:
   slug: model
   headline: "<strong>Model your data </strong>easily by authoring YAML files"
   content: Use the LinkML modeling language to author models for your schemas and
-    data dictionaries
+    data dictionaries.<br><br>The modeling language is rich employing features such
+    as polymorphism, mixins/traits, mapping to ontologies, and control of JSON inlining.
+    At the same time it can be used for simple tasks such as defining data dictionaries.
   media:
     image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-05-14-pm.png"
     alt_text: uBuild Blocks Mock-Up
@@ -59,12 +61,6 @@ page_sections:
   media:
     image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-02-30-pm.png"
     alt_text: Customize Blocks
-- template: 1-column-text
-  block: one-column-1
-  headline: Publish on the web
-  slug: Generate web documentation using themes like ReadTheDocs or Material. Publish
-    schema artifacts using w3ids.
-  content: <img src="/uploads/2021/03/30/screen-shot-2021-03-29-at-7-21-58-pm.png">
 - template: content-feature
   block: feature-1
   media_alignment: Right
