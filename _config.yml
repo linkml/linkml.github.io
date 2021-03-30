@@ -3,7 +3,7 @@ title: LinkML - Linked data Modeling Language
 author: linkml.org
 email: support@forestry.io
 description: LinkML blah....
-baseurl: "/ubuild-jekyll"
+baseurl: "/"
 url: ''
 defaults:
 - scope:
