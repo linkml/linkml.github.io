@@ -67,8 +67,7 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: Steps to Build a Model
-  content: <p>You can get started right away!</p><ol><li><p><a href="https://github.com/linkml/linkml-template"
-    title="Use the linkml-template">I</a>Use <a href="https://github.com/linkml/linkml-template"
+  content: <p>You can get started right away!</p><ol><li><p>Use <a href="https://github.com/linkml/linkml-template"
     title="LinkML template">linkml-template</a> in GitHub.</p></li><li><p>Hack your
     YAML file</p></li><li><p>Add example data</p></li><li><p>Use the Makefile to generate
     all downstream artefacts</p></li></ol>
