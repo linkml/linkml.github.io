@@ -11,8 +11,8 @@ page_sections:
     link_text: LinkML
   - link: "#model"
     link_text: Model
-  - link: "#customize"
-    link_text: Customize
+  - link: "#generate"
+    link_text: Generate
   - link: "#responsive"
     link_text: Responsive
   - link: "#blocks"
