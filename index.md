@@ -5,7 +5,7 @@ date:
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  logo: "/uploads/2018/06/21/forestry-full.svg"
+  logo: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-18-59-pm.png"
   navigation:
   - link: "/"
     link_text: LinkML
