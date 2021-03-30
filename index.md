@@ -7,6 +7,8 @@ page_sections:
   block: header-2
   logo: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-33-23-pm.png"
   navigation:
+  - link: json
+    link_text: JSON
   - link: "/"
     link_text: LinkML
   - link: "#model"
