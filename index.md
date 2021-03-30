@@ -13,8 +13,8 @@ page_sections:
     link_text: Model
   - link: "#generate"
     link_text: Generate
-  - link: "#responsive"
-    link_text: Responsive
+  - link: "#python"
+    link_text: Python
   - link: "#blocks"
     link_text: Blocks
   cta:
