@@ -57,7 +57,7 @@ page_sections:
   media_alignment: Right
   slug: codegen
   headline: "<strong>Generate Python dataclasses</strong>"
-  content: LinkML can be used to generate Python data classes!
+  content: 'LinkML can be used to generate Python dataclasses. '
   media:
     image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-02-30-pm.png"
     alt_text: Customize Blocks
