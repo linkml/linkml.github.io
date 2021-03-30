@@ -62,7 +62,8 @@ page_sections:
 - template: 1-column-text
   block: one-column-1
   headline: Publish on the web
-  slug: Generate web documentation using themes like ReadTheDocs or Material
+  slug: Generate web documentation using themes like ReadTheDocs or Material. Publish
+    schema artifacts using w3ids.
   content: <img src="/uploads/2021/03/30/screen-shot-2021-03-29-at-7-21-58-pm.png">
 - template: full-width-media-element
   block: media-1
