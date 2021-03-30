@@ -9,8 +9,8 @@ page_sections:
   navigation:
   - link: "/"
     link_text: LinkML
-  - link: "#swap"
-    link_text: Swap
+  - link: "#model"
+    link_text: Model
   - link: "#customize"
     link_text: Customize
   - link: "#responsive"
