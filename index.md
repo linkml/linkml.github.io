@@ -7,7 +7,7 @@ page_sections:
   block: header-2
   logo: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-33-23-pm.png"
   navigation:
-  - link: json
+  - link: "#json"
     link_text: JSON
   - link: "/"
     link_text: LinkML
@@ -93,8 +93,8 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: Steps to Build a Model
-  content: <p>You can get started right away!</p><ol><li><p>Use <a href="https://github.com/linkml/linkml-template"
-    title="LinkML template">linkml-template</a> in GitHub.</p></li><li><p>Hack your
+  content: <p>You can get started right away!</p><ol><li><p>Use <a href="https://github.com/linkml/linkml-model-template"
+    title="LinkML template">linkml-model-template</a> in GitHub.</p></li><li><p>Hack your
     YAML file</p></li><li><p>Add example data</p></li><li><p>Use the Makefile to generate
     all downstream artefacts</p></li></ol>
 - template: simple-footer
