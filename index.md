@@ -5,7 +5,7 @@ date:
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  logo: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-33-23-pm.png"
+  logo: "/uploads/linkml-logo_color.png"
   navigation:
   - link: "#json"
     link_text: JSON
