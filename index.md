@@ -43,7 +43,7 @@ page_sections:
   headline: "<strong>Model your data </strong>easily by authoring YAML files"
   content: Use the LinkML modeling language to author models for your schemas and
     data dictionaries.<br><br>The modeling language is rich employing features such
-    as polymorphism, mixins/traits, mapping to ontologies, and control of JSON inlining.
+    as polymorphism, <a href="https://w3id.org/linkml/mixins" title="reference">mixins/traits</a>, <a href="https://w3id.org/linkml/EnumDefinition">mapping to ontologies</a>, and control of JSON inlining.
     At the same time it can be used for simple tasks such as defining data dictionaries.<br><br>See
     the <a href="https://linkml.github.io/linkml-model/docs/" title="reference">online
     Reference Guide</a>
