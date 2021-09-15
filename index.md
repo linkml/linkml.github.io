@@ -62,8 +62,8 @@ page_sections:
   block: one-column-1
   slug: generate
   headline: Generate schema artifacts
-  content: "The <a href="https://linkml.io/linkml/generators/index.html">LinkML Generator framework</a>  generates downstream artfacts, including JSON-Schema,
-    ShEx, RDF, OWL, GraphQL, and SQL DDL.<br><br>This allows you to use LinkML while continuing to work with other toolchains, e.g. JSON-Schema validators"
+  content: The <a href="https://linkml.io/linkml/generators/index.html">LinkML Generator framework</a>  generates downstream artfacts, including JSON-Schema,
+    ShEx, RDF, OWL, GraphQL, and SQL DDL.<br><br>This allows you to use LinkML while continuing to work with other toolchains, e.g. JSON-Schema validators
 - template: content-feature
   block: feature-1
   media_alignment: Right
