@@ -7,10 +7,10 @@ page_sections:
   block: header-2
   logo: "/uploads/linkml-logo_color.png"
   navigation:
-  - link: "#json"
-    link_text: JSON
-  - link: "/"
-    link_text: LinkML
+  - link: "#features"
+    link_text: Features
+  - link: "#jsonld"
+    link_text: Linked Data
   - link: "#model"
     link_text: Model
   - link: "#generate"
@@ -30,8 +30,8 @@ page_sections:
     data, JSON, and other formalisms
   cta:
     enabled: true
-    url: https://github.com/linkml/linkml
-    button_text: 'See on GitHub '
+    url: https://linkml.io/linkml
+    button_text: 'LinkML Documentation'
   image:
     image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-09-55-pm.png"
     alt_text: Product Shot
@@ -43,17 +43,16 @@ page_sections:
   headline: "<strong>Model your data </strong>easily by authoring YAML files"
   content: Use the LinkML modeling language to author models for your schemas and
     data dictionaries.<br><br>The modeling language is rich employing features such
-    as polymorphism, <a href="https://w3id.org/linkml/mixins" title="reference">mixins/traits</a>, <a href="https://w3id.org/linkml/EnumDefinition">mapping to ontologies</a>, and control of JSON inlining.
-    At the same time it can be used for simple tasks such as defining data dictionaries.<br><br>See
-    the <a href="https://linkml.github.io/linkml-model/docs/" title="reference">online
-    Reference Guide</a>
+    as <a href="https://linkml.io/linkml/schemas/inheritance.html" title="reference">flexible inheritance</a>, <a href="https://linkml.io/linkml/schemas/enums.html">semantic enumerations</a>, and <a href="https://linkml.io/linkml/schemas/inlining.html">control of JSON inlining</a>.
+    At the same time it can be used for simple tasks such as defining data dictionaries.
+    <br><br>See the <a href="https://linkml.io/linkml/schemas/" title="schemas">Modeling Documentation</a>
   media:
     image: "/uploads/2021/03/30/screen-shot-2021-03-29-at-7-05-14-pm.png"
     alt_text: uBuild Blocks Mock-Up
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  slug: json
+  slug: jsonld
   headline: Linked Data <strong>JSON-ready</strong>
   content: Generate JSON-Schema and JSON-LD contexts for semantic-web ready and developer-friendly schemas!
   media:
@@ -63,7 +62,7 @@ page_sections:
   block: one-column-1
   slug: generate
   headline: Generate schema artifacts
-  content: "The <strong>LinkML Generator framework</strong>  generates downstream artfacts, including JSON-Schema,
+  content: "The <a href="https://linkml.io/linkml/generators/index.html">LinkML Generator framework</a>  generates downstream artfacts, including JSON-Schema,
     ShEx, RDF, OWL, GraphQL, and SQL DDL.<br><br>This allows you to use LinkML while continuing to work with other toolchains, e.g. JSON-Schema validators"
 - template: content-feature
   block: feature-1
