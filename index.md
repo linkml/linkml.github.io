@@ -88,11 +88,6 @@ page_sections:
     alt_text: ''
   content: The LinkML framework automates publish schema documentation using mkdocs,
     and assists in publishing schema artefacts using w3id.org
-#- template: full-width-media-element
-#  block: media-1
-#  image: "/uploads/2018/06/21/theme.png"
-#  caption: blah
-#  slug: publish
 - template: detail-content
   block: text-1
   headline: Steps to Build a Model
