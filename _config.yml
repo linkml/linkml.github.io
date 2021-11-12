@@ -1,10 +1,10 @@
 ---
 title: LinkML - Linked data Modeling Language
-author: linkml.org
-email: support@forestry.io
-description: LinkML blah....
-baseurl: "/"
-url: ''
+author: Chris Mungall
+email: cjmungall@lbl.gov
+description: LinkML is a language for modeling linked data
+baseurl: ''
+url: https://linkml.io/
 defaults:
 - scope:
     path: ''
