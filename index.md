@@ -9,8 +9,6 @@ page_sections:
   navigation:
   - link: "/community"
     link_text: Community
-  - link: "/community-dynamic"
-    link_text: Community (Dynamic)
   - link: "#jsonld"
     link_text: Linked Data
   - link: "#model"
