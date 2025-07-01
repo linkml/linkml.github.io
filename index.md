@@ -7,6 +7,10 @@ page_sections:
   block: header-2
   logo: "/uploads/linkml-logo_color.png"
   navigation:
+  - link: "/community"
+    link_text: Community
+  - link: "/community-dynamic"
+    link_text: Community (Dynamic)
   - link: "#jsonld"
     link_text: Linked Data
   - link: "#model"
