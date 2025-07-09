@@ -51,15 +51,15 @@ page_sections:
       <tbody>
         <tr>
           <td style="border: 1px solid #ddd; padding: 12px;">August 21, 2025</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">-</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">-</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Caterina Strambio De Castillia</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Use of LinkML for CDEs</td>
           <td style="border: 1px solid #ddd; padding: 12px;">Corey Cox</td>
           <td style="border: 1px solid #ddd; padding: 12px;">LinkML-map</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ddd; padding: 12px;">July 17, 2025</td>
           <td style="border: 1px solid #ddd; padding: 12px;">Lex Jansen</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">CDISC</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Modeling at CDISC with LinkML</td>
           <td style="border: 1px solid #ddd; padding: 12px;">-</td>
           <td style="border: 1px solid #ddd; padding: 12px;">-</td>
         </tr>
