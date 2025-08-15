@@ -52,7 +52,7 @@ page_sections:
         <tr>
           <td style="border: 1px solid #ddd; padding: 12px;">August 21, 2025</td>
           <td style="border: 1px solid #ddd; padding: 12px;">Caterina Strambio De Castillia</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">Use of LinkML for CDEs</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">A LinkML-based metadata framework for the Open Microscopy Metadata model to enable easy extension, data exchange with instrument manufacturers, and integration with related models.</td>
           <td style="border: 1px solid #ddd; padding: 12px;">Corey Cox</td>
           <td style="border: 1px solid #ddd; padding: 12px;">LinkML-map</td>
         </tr>
