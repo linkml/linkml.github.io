@@ -49,12 +49,18 @@ page_sections:
         </tr>
       </thead>
       <tbody>
+         <td style="border: 1px solid #ddd; padding: 12px;">September 18, 2025</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">TBD</td>
+          <td style="border: 1px solid #ddd; padding: 12px;"> </td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Corey Cox</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">LinkML-map</td>
+        </tr>
         <tr>
           <td style="border: 1px solid #ddd; padding: 12px;">August 21, 2025</td>
           <td style="border: 1px solid #ddd; padding: 12px;">Caterina Strambio De Castillia</td>
           <td style="border: 1px solid #ddd; padding: 12px;">A LinkML-based metadata framework for the Open Microscopy Metadata model to enable easy extension, data exchange with instrument manufacturers, and integration with related models.</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">Corey Cox</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">LinkML-map</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Frank Dekervel</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">LinkML in Rust</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ddd; padding: 12px;">July 17, 2025</td>
