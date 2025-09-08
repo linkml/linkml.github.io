@@ -50,10 +50,10 @@ page_sections:
       </thead>
       <tbody>
          <td style="border: 1px solid #ddd; padding: 12px;">September 18, 2025</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Joonas Kesäniemi</td>
+          <td style="border: 1px solid #ddd; padding: 12px;"> </td>
           <td style="border: 1px solid #ddd; padding: 12px;">TBD</td>
           <td style="border: 1px solid #ddd; padding: 12px;"> </td>
-          <td style="border: 1px solid #ddd; padding: 12px;">Corey Cox</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">LinkML-map</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ddd; padding: 12px;">August 21, 2025</td>
