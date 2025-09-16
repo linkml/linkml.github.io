@@ -51,9 +51,9 @@ page_sections:
       <tbody>
          <td style="border: 1px solid #ddd; padding: 12px;">September 18, 2025</td>
           <td style="border: 1px solid #ddd; padding: 12px;">Joonas Kesäniemi</td>
-          <td style="border: 1px solid #ddd; padding: 12px;"> </td>
-          <td style="border: 1px solid #ddd; padding: 12px;">TBD</td>
-          <td style="border: 1px solid #ddd; padding: 12px;"> </td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Adapting existing RAiD service implementation with LinkML - Generating artefacts for initialization. documentation, and validation</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Corey Cox</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">The Data Model-Based Ingestion Pipeline Pilot (dm-bip)</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ddd; padding: 12px;">August 21, 2025</td>
