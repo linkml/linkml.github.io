@@ -51,7 +51,7 @@ page_sections:
       <tbody>
          <td style="border: 1px solid #ddd; padding: 12px;">October 16, 2025</td>
           <td style="border: 1px solid #ddd; padding: 12px;">Community Discussion Topcs</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">"Multilingual support; ID handling; Likert enumerations"</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">(1) Multilingual support; (2) ID handling; (3) Likert enumerations</td>
           <td style="border: 1px solid #ddd; padding: 12px;">TBD</td>
           <td style="border: 1px solid #ddd; padding: 12px;">TBD</td>
         </tr>
