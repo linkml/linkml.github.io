@@ -49,9 +49,9 @@ page_sections:
         </tr>
       </thead>
       <tbody>
-        <td style="border: 1px solid #ddd; padding: 12px;">December 5, 12, 19, 2025</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">December Developer Days</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">Find more information <a href="https://docs.google.com/document/d/1dm8GSuK1115hr_4klcYKo0De-qhRIME0I6lBtqAui1s/edit?tab=t.0#heading=h.6sqkx1xhumse" target="_blank">here</a></td>
+        <td style="border: 1px solid #ddd; padding: 12px;">-</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">-</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">December 5, 12, 19, 2025 are December Developer Days! Find more information <a href="https://docs.google.com/document/d/1dm8GSuK1115hr_4klcYKo0De-qhRIME0I6lBtqAui1s/edit?tab=t.0#heading=h.6sqkx1xhumse" target="_blank">here</a></td>
           <td style="border: 1px solid #ddd; padding: 12px;">-</td>
           <td style="border: 1px solid #ddd; padding: 12px;">-</td>
         </tr>
