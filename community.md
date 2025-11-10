@@ -49,11 +49,25 @@ page_sections:
         </tr>
       </thead>
       <tbody>
-         <td style="border: 1px solid #ddd; padding: 12px;">October 16, 2025</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">Community Discussion Topcs</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">(1) Multilingual support; (2) ID handling; (3) Likert enumerations</td>
+        <td style="border: 1px solid #ddd; padding: 12px;">December 5, 12, 19, 2025</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">December Developer Days</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Find more information [here](https://docs.google.com/document/d/1dm8GSuK1115hr_4klcYKo0De-qhRIME0I6lBtqAui1s/edit?tab=t.0#heading=h.6sqkx1xhumse)</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">-</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">-</td>
+        </tr>
+        <tr> 
+        <td style="border: 1px solid #ddd; padding: 12px;">November 20, 2025</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Sigfried Gold</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Coming soon!</td>
           <td style="border: 1px solid #ddd; padding: 12px;">Sierra Moxon</td>
           <td style="border: 1px solid #ddd; padding: 12px;">From spreadsheet to validated data entry: Vibe coding LinkML Schema and GH Pages Data Harmonizer Instance</td>
+        </tr>
+        <tr> 
+        <td style="border: 1px solid #ddd; padding: 12px;">October 16, 2025</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Community Discussion Topcs</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">(1) Multilingual support; (2) ID handling; (3) Likert enumerations</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">-</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">-</td>
         </tr>
         <tr>
          <td style="border: 1px solid #ddd; padding: 12px;">September 18, 2025</td>
