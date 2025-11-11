@@ -58,7 +58,7 @@ page_sections:
         <tr> 
         <td style="border: 1px solid #ddd; padding: 12px;">November 20, 2025</td>
           <td style="border: 1px solid #ddd; padding: 12px;">Sigfried Gold</td>
-          <td style="border: 1px solid #ddd; padding: 12px;">Coming soon!</td>
+          <td style="border: 1px solid #ddd; padding: 12px;">Interactive Visualization of a LinkML Schema: The BioData Catalyst Harmonized Model Explorer</td>
           <td style="border: 1px solid #ddd; padding: 12px;">Sierra Moxon</td>
           <td style="border: 1px solid #ddd; padding: 12px;">From spreadsheet to validated data entry: Vibe coding LinkML Schema and GH Pages Data Harmonizer Instance</td>
         </tr>
