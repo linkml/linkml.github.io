@@ -89,9 +89,9 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: Steps to Build a Model
-  content: <p>You can get started right away!</p><ol><li><p>Use <a href="https://github.com/linkml/linkml-project-cookiecutter"
-    title="LinkML Project Cookiecutter">linkml-project-cookiecutter</a> in GitHub.</p></li><li><p>Edit your
-    YAML file</p></li><li><p>Add example data</p></li><li><p>Use the Makefile to generate
+  content: <p>You can get started right away!</p><ol><li><p>Use <a href="https://github.com/linkml/linkml-project-copier"
+    title="LinkML Project Copier">linkml-project-copier</a> in GitHub.</p></li><li><p>Edit your
+    YAML file</p></li><li><p>Add example data</p></li><li><p>Use the <a href="https://just.systems/man/en/" title="just command runner documentation">just</a> commands to generate
     all downstream artefacts</p></li></ol>
 - template: simple-footer
   block: footer-1
