@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkML – Linked Data Modeling Language</title>
+  <meta name="description" content="A flexible modeling language for authoring schemas in YAML. Generate JSON Schema, RDF, Python, TypeScript, SQL, and 30+ other formats from a single source of truth.">
+  <link rel="icon" type="image/png" href="uploads/linkml-logo_color-no-words.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER
+       Edit nav links and the GitHub CTA button here.
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="/" class="logo-link">
+        <img src="uploads/linkml-logo_color.png" alt="LinkML" class="logo">
+      </a>
+
+      <nav class="main-nav">
+        <a href="#model">Model</a>
+        <a href="#generate">Generate</a>
+        <a href="#ecosystem">Ecosystem</a>
+        <a href="#community">Community</a>
+        <a href="#steps">Get Started</a>
+      </nav>
+
+      <a href="https://github.com/linkml/" class="btn btn-primary nav-cta" target="_blank" rel="noopener">GitHub</a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">&#9776;</button>
+
+    </div>
+  </header>
+
+
+  <!-- ============================================================
+       HERO
+       Edit headline, intro paragraph, and button text/URL here.
+       ============================================================ -->
+  <section class="hero">
+    <div class="container hero-inner">
+
+      <div class="hero-text">
+        <h1>LinkML<span class="accent">One schema. Every format.</span></h1>
+        <p>
+          A flexible modeling language for authoring schemas in YAML.
+          Generate JSON Schema, RDF, Python, TypeScript, SQL, and more than
+          30 other formats from a single source of truth.
+        </p>
+        <a href="https://linkml.io/linkml" class="btn btn-hero" target="_blank" rel="noopener">
+          LinkML Documentation
+        </a>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="uploads/2021/03/30/screen-shot-2021-03-29-at-7-09-55-pm.png"
+          alt="LinkML schema overview screenshot">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FEATURE: Model your data
+       Image left, text right.
+       ============================================================ -->
+  <section class="feature" id="model">
+    <div class="container feature-inner">
+
+      <div class="feature-media">
+        <img
+          src="uploads/2021/03/30/screen-shot-2021-03-29-at-7-05-14-pm.png"
+          alt="YAML schema authoring in LinkML">
+      </div>
+
+      <div class="feature-text">
+        <h2><strong>Model your data</strong> easily by authoring YAML files</h2>
+        <p>
+          Use the LinkML modeling language to author schemas and data dictionaries.
+          LinkML supports <a href="https://linkml.io/linkml/schemas/inheritance.html">flexible inheritance</a>,
+          <a href="https://linkml.io/linkml/schemas/enums.html">semantic enumerations</a>,
+          <a href="https://linkml.io/linkml/schemas/inlining.html">control of JSON inlining</a>,
+          pattern-based validation, and logical constraints.
+        </p>
+        <p>
+          The LinkML metamodel is itself written in LinkML — a mark of the language's
+          expressive power and consistency.
+        </p>
+        <p>
+          Non-developers can author schemas using
+          <a href="https://github.com/linkml/schemasheets" target="_blank" rel="noopener">Schemasheets</a>
+          — define your data model directly in Excel or Google Sheets, no YAML required.
+        </p>
+        <a href="https://linkml.io/linkml/schemas/" class="btn btn-secondary">Modeling Documentation</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FEATURE: FAIR by default
+       Text left, image right.
+       ============================================================ -->
+  <section class="feature feature-alt" id="jsonld">
+    <div class="container feature-inner feature-reverse">
+
+      <div class="feature-text">
+        <h2>FAIR data compliance <strong>by default</strong></h2>
+        <p>
+          In LinkML, every class, slot, and enumeration automatically gets a globally unique
+          URI or IRI. This means your schemas satisfy
+          <a href="https://www.go-fair.org/fair-principles/" target="_blank" rel="noopener">FAIR principles</a>
+          — Findable, Accessible, Interoperable, and Reusable — from day one, without
+          extra tooling.
+        </p>
+        <p>
+          Generate JSON-LD context files for semantic-web interoperability while keeping
+          your data in developer-friendly JSON or YAML. Developers can ignore the
+          semantics until they need them.
+        </p>
+      </div>
+
+      <div class="feature-media">
+        <img
+          src="uploads/2021/03/30/screen-shot-2021-03-29-at-7-49-27-pm.png"
+          alt="JSON-Schema validation in PyCharm">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION: Generate 30+ artifacts (centered, grouped tags)
+       Edit the .artifact-group blocks to update the output list.
+       ============================================================ -->
+  <section class="feature-centered feature-centered-alt" id="generate">
+    <div class="container">
+
+      <h2>Generate 30+ schema artifacts</h2>
+      <p>
+        The <a href="https://linkml.io/linkml/generators/index.html">LinkML Generator framework</a>
+        compiles your schema into downstream artifacts across every major toolchain.
+        The philosophy: embrace and reuse existing frameworks rather than replace them.
+      </p>
+
+      <div class="artifact-groups">
+
+        <div class="artifact-group">
+          <span class="artifact-group-label">Schema frameworks</span>
+          <div class="artifact-group-tags">
+            <span class="tag">JSON Schema</span>
+            <span class="tag">GraphQL</span>
+            <span class="tag">ProtoBuf</span>
+          </div>
+        </div>
+
+        <div class="artifact-group">
+          <span class="artifact-group-label">Linked data</span>
+          <div class="artifact-group-tags">
+            <span class="tag">OWL</span>
+            <span class="tag">ShEx</span>
+            <span class="tag">SHACL</span>
+            <span class="tag">RDF</span>
+            <span class="tag">JSON-LD</span>
+            <span class="tag">SPARQL</span>
+            <span class="tag">YARRRML</span>
+          </div>
+        </div>
+
+        <div class="artifact-group">
+          <span class="artifact-group-label">Code generation</span>
+          <div class="artifact-group-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Pydantic</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Java</span>
+            <span class="tag">Rust</span>
+          </div>
+        </div>
+
+        <div class="artifact-group">
+          <span class="artifact-group-label">Databases</span>
+          <div class="artifact-group-tags">
+            <span class="tag">SQL DDL</span>
+            <span class="tag">SQLAlchemy</span>
+            <span class="tag">TypeDB</span>
+          </div>
+        </div>
+
+        <div class="artifact-group">
+          <span class="artifact-group-label">Documentation</span>
+          <div class="artifact-group-tags">
+            <span class="tag">Searchable docs</span>
+            <span class="tag">ER Diagrams</span>
+            <span class="tag">Excel / CSV</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FEATURE: Code generation
+       Image left, text right.
+       ============================================================ -->
+  <section class="feature feature-alt" id="codegen">
+    <div class="container feature-inner">
+
+      <div class="feature-media">
+        <img
+          src="uploads/2021/03/30/screen-shot-2021-03-29-at-7-02-30-pm.png"
+          alt="Generated Python dataclasses from a LinkML schema">
+      </div>
+
+      <div class="feature-text">
+        <h2>Generate code in <strong>your language</strong></h2>
+        <p>
+          LinkML generates native data classes for multiple programming languages.
+          Python dataclasses and Pydantic models are available today, with generators
+          for TypeScript, Java, and Rust also available.
+        </p>
+        <p>
+          The <a href="https://github.com/linkml/linkml-runtime/" target="_blank" rel="noopener">LinkML runtime</a>
+          allows generated Python classes to be automatically loaded and dumped from
+          YAML, JSON, CSV, and RDF — keeping your data pipeline flexible.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FEATURE: Publish your schema
+       Text left, image right.
+       ============================================================ -->
+  <section class="feature" id="publish">
+    <div class="container feature-inner feature-reverse">
+
+      <div class="feature-text">
+        <h2><strong>Publish</strong> your schema on the web</h2>
+        <p>
+          Use <code>gen-doc</code> to generate searchable documentation sites for
+          your schema, and <code>gen-erdiagram</code> to produce Mermaid
+          entity-relationship diagrams — all automatically from your YAML file.
+        </p>
+        <p>
+          LinkML also assists in publishing schema artefacts using w3id.org for
+          stable, resolvable URIs.
+        </p>
+      </div>
+
+      <div class="feature-media">
+        <img
+          src="uploads/2021/03/30/screen-shot-2021-03-29-at-7-21-58-pm.png"
+          alt="Auto-generated schema documentation site">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ECOSYSTEM
+       Edit the .ecosystem-card blocks to add or update tools.
+       ============================================================ -->
+  <section class="ecosystem-section" id="ecosystem">
+    <div class="container">
+
+      <h2>A growing ecosystem</h2>
+      <p>
+        LinkML is more than a language — it's an ecosystem of tools for working
+        with structured data across the research and data engineering communities.
+      </p>
+
+      <div class="ecosystem-grid">
+
+        <a href="https://github.com/monarch-initiative/ontogpt" class="ecosystem-card" target="_blank" rel="noopener">
+          <h3>OntoGPT</h3>
+          <p>Extract structured, LinkML-compliant data from unstructured text using large language models.</p>
+        </a>
+
+        <a href="https://github.com/linkml/schemasheets" class="ecosystem-card" target="_blank" rel="noopener">
+          <h3>Schemasheets</h3>
+          <p>Define schemas directly in Excel or Google Sheets — no YAML required. Outputs a valid LinkML schema.</p>
+        </a>
+
+        <a href="https://github.com/linkml/schema-automator" class="ecosystem-card" target="_blank" rel="noopener">
+          <h3>schema-automator</h3>
+          <p>Bootstrap LinkML schemas from existing data sources — reverse-engineer a schema from your data.</p>
+        </a>
+
+        <a href="https://github.com/cidgoh/DataHarmonizer" class="ecosystem-card" target="_blank" rel="noopener">
+          <h3>DataHarmonizer</h3>
+          <p>A browser-based spreadsheet validator for ontology-backed data curation, driven by LinkML schemas.</p>
+        </a>
+
+        <a href="https://github.com/linkml/linkml-transformer" class="ecosystem-card" target="_blank" rel="noopener">
+          <h3>linkml-transformer</h3>
+          <p>Transform and map data between different LinkML models using a declarative transformation language.</p>
+        </a>
+
+        <a href="https://github.com/INCATools/ontology-access-kit" class="ecosystem-card" target="_blank" rel="noopener">
+          <h3>OAK</h3>
+          <p>Ontology Access Kit — a Python library for working with ontologies and vocabularies, built on LinkML.</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       COMMUNITY — Who uses LinkML
+       Edit the .usage-item spans and stats as needed.
+       ============================================================ -->
+  <section class="community-section" id="community">
+    <div class="container">
+
+      <h2>Used across research and industry</h2>
+      <p>
+        LinkML powers data standards in biomedical research, environmental science,
+        AI governance, and infrastructure projects worldwide.
+      </p>
+
+      <!-- Organizations using LinkML — sourced from linkml.io/linkml documentation -->
+      <div class="usage-grid">
+        <span class="usage-item">National Microbiome Data Collaborative (NMDC)</span>
+        <span class="usage-item">Center for Cancer Data Harmonization (CCDH)</span>
+        <span class="usage-item">Alliance of Genome Resources</span>
+        <span class="usage-item">Biomedical Data Translator</span>
+        <span class="usage-item">NIH INCLUDE Project</span>
+        <span class="usage-item">Bridge2AI</span>
+        <span class="usage-item">Monarch Initiative</span>
+        <span class="usage-item">ENTSO-E (power systems)</span>
+        <span class="usage-item">NFDI (German research infrastructure)</span>
+        <span class="usage-item">iSamples</span>
+      </div>
+
+      <div class="community-stats">
+        <div class="stat">
+          <div class="stat-number">30+</div>
+          <div class="stat-label">output formats</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">100+</div>
+          <div class="stat-label">projects in the registry</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">Apache 2.0</div>
+          <div class="stat-label">open source license</div>
+        </div>
+      </div>
+
+      <p class="citation">
+        Moxon SAT, et al.
+        <a href="https://doi.org/10.1093/gigascience/giaf152" target="_blank" rel="noopener">
+          "LinkML: an open data modeling framework."
+        </a>
+        <em>GigaScience.</em> 2026;15:giaf152.
+      </p>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       STEPS TO GET STARTED
+       Edit the <li> items to update the getting-started steps.
+       ============================================================ -->
+  <section class="steps" id="steps">
+    <div class="container">
+
+      <h2>Steps to Build a Model</h2>
+      <p>You can get started right away!</p>
+
+      <ol class="steps-list">
+
+        <li>
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <p>
+              Use <a href="https://github.com/linkml/linkml-project-copier">linkml-project-copier</a>
+              in GitHub to scaffold a new project.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <p>Edit your YAML schema file.</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <p>Add example data to your project.</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <p>
+              Validate your data against the schema using
+              <code>linkml-validate</code>.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="step-number">5</div>
+          <div class="step-content">
+            <p>
+              Convert between YAML, JSON, and RDF using
+              <code>linkml-convert</code>.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="step-number">6</div>
+          <div class="step-content">
+            <p>
+              Use the <a href="https://just.systems/man/en/">just</a> command
+              runner to generate all downstream artefacts.
+            </p>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+       Edit tagline and footer nav links here.
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+
+      <img src="uploads/linkml-logo_color.png" alt="LinkML" class="footer-logo">
+      <p class="footer-tagline">LinkML ❤︎s your data</p>
+
+      <nav class="footer-nav">
+        <a href="https://linkml.io/linkml" target="_blank" rel="noopener">Documentation</a>
+        <a href="https://github.com/linkml/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkml.io/linkml/generators/index.html" target="_blank" rel="noopener">Generators</a>
+        <a href="https://github.com/linkml/linkml-project-copier" target="_blank" rel="noopener">Project Copier</a>
+        <a href="https://linkml.io/linkml/ecosystem.html" target="_blank" rel="noopener">Ecosystem</a>
+      </nav>
+
+    </div>
+  </footer>
+
+
+  <!-- Mobile navigation toggle -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav    = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => nav.classList.toggle('open'));
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.site-header')) nav.classList.remove('open');
+    });
+  </script>
+
+</body>
+</html>
