@@ -1,0 +1,640 @@
+/* ================================================================
+   LinkML Site Styles
+   Colors sourced from the LinkML logo:
+     --green : olive/lime green used in "link" text
+     --teal  : teal used in the "M" letterform
+   ================================================================ */
+
+:root {
+  --green:        #8B9E2C;
+  --green-dark:   #6B7A1F;
+  --green-light:  #C9D96B;
+  --teal:         #1B8FA0;
+  --teal-dark:    #126475;
+  --teal-light:   #6ECADB;
+  --white:        #FFFFFF;
+  --off-white:    #F5F7F0;
+  --gray-light:   #E6EAD8;
+  --gray-mid:     #9BA88A;
+  --text-dark:    #1C2510;
+  --text-mid:     #4A5538;
+  --text-light:   #717D5C;
+  --radius:       8px;
+  --shadow:       0 4px 24px rgba(0,0,0,0.08);
+  --transition:   0.2s ease;
+  --max-width:    1100px;
+}
+
+/* ----------------------------------------------------------------
+   Reset & Base
+   ---------------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+  background: var(--white);
+}
+
+img { max-width: 100%; height: auto; display: block; border-radius: var(--radius); }
+
+a { color: var(--teal); text-decoration: none; }
+a:hover { color: var(--teal-dark); text-decoration: underline; }
+
+h1, h2, h3 {
+  line-height: 1.2;
+  color: var(--text-dark);
+  font-weight: 700;
+}
+
+h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); }
+h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); }
+h3 { font-size: 1.2rem; }
+
+p { margin-bottom: 1rem; }
+p:last-child { margin-bottom: 0; }
+
+strong { color: inherit; font-weight: 700; }
+
+code {
+  background: var(--gray-light);
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.88em;
+  color: var(--teal-dark);
+}
+
+/* ----------------------------------------------------------------
+   Layout helpers
+   ---------------------------------------------------------------- */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ----------------------------------------------------------------
+   Buttons
+   ---------------------------------------------------------------- */
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.6rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition), transform var(--transition);
+  text-decoration: none;
+}
+.btn:hover { transform: translateY(-1px); text-decoration: none; }
+
+.btn-primary {
+  background: var(--green);
+  color: var(--white);
+}
+.btn-primary:hover { background: var(--green-dark); color: var(--white); }
+
+.btn-hero {
+  background: var(--white);
+  color: var(--teal-dark);
+  font-size: 1rem;
+  padding: 0.85rem 2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+.btn-hero:hover { background: var(--off-white); color: var(--teal-dark); }
+
+.btn-secondary {
+  background: transparent;
+  color: var(--teal);
+  border: 2px solid var(--teal);
+  margin-top: 0.5rem;
+}
+.btn-secondary:hover { background: var(--teal); color: var(--white); }
+
+/* ----------------------------------------------------------------
+   Header / Navigation
+   ---------------------------------------------------------------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--white);
+  border-bottom: 2px solid var(--gray-light);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+}
+
+.logo-link { flex-shrink: 0; }
+.logo { height: 44px; width: auto; border-radius: 0; }
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex: 1;
+}
+.main-nav a {
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  color: var(--text-mid);
+  font-weight: 500;
+  font-size: 0.92rem;
+  transition: background var(--transition), color var(--transition);
+}
+.main-nav a:hover {
+  background: var(--off-white);
+  color: var(--green-dark);
+  text-decoration: none;
+}
+
+.nav-cta { margin-left: auto; }
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-dark);
+  margin-left: auto;
+}
+
+/* ----------------------------------------------------------------
+   Hero
+   ---------------------------------------------------------------- */
+.hero {
+  background: var(--teal);
+  color: var(--white);
+  padding: 5rem 0 4rem;
+  overflow: hidden;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero-text h1 { color: var(--white); }
+
+.hero-text .accent {
+  color: var(--green-light);
+  display: block;
+}
+
+.hero-text p {
+  font-size: 1.15rem;
+  opacity: 0.92;
+  margin: 1.25rem 0 2rem;
+  max-width: 440px;
+}
+
+.hero-image img {
+  border-radius: var(--radius);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.25);
+}
+
+/* ----------------------------------------------------------------
+   Feature sections (alternating image + text)
+   ---------------------------------------------------------------- */
+.feature {
+  padding: 5rem 0;
+  background: var(--white);
+}
+
+.feature.feature-alt {
+  background: var(--off-white);
+}
+
+.feature-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+/* Items in .feature-reverse sections are ordered text-first in HTML,
+   which naturally places text on the left and image on the right. */
+
+.feature-text h2 { margin-bottom: 1rem; }
+.feature-text h2 strong { color: var(--teal); }
+
+.feature-media img {
+  box-shadow: var(--shadow);
+  border: 1px solid var(--gray-light);
+}
+
+/* ----------------------------------------------------------------
+   Full-width centered text sections
+   ---------------------------------------------------------------- */
+.feature-centered {
+  padding: 5rem 0;
+  background: var(--off-white);
+  text-align: center;
+}
+
+.feature-centered.feature-centered-alt {
+  background: var(--white);
+}
+
+.feature-centered .container { max-width: 760px; }
+
+.feature-centered h2 { margin-bottom: 1rem; }
+.feature-centered h2 strong { color: var(--teal); }
+
+/* Artifact type tags */
+.artifact-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.tag {
+  background: var(--white);
+  color: var(--teal-dark);
+  border: 2px solid var(--teal-light);
+  border-radius: 999px;
+  padding: 0.3rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* Slides embed */
+.slides-embed {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 2rem auto 0;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.slides-embed iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: none;
+  border-radius: var(--radius);
+}
+
+/* ----------------------------------------------------------------
+   Steps section
+   ---------------------------------------------------------------- */
+.steps {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, var(--green-dark) 0%, var(--green) 100%);
+  color: var(--white);
+}
+
+.steps .container { max-width: 700px; }
+
+.steps h2 {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.steps > .container > p {
+  text-align: center;
+  opacity: 0.9;
+  margin-bottom: 2.5rem;
+}
+
+.steps-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.steps-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  background: rgba(255,255,255,0.12);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+}
+
+.step-number {
+  flex-shrink: 0;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: var(--white);
+  color: var(--green-dark);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.step-content p { margin: 0; }
+.step-content a { color: var(--green-light); font-weight: 600; }
+.step-content a:hover { color: var(--white); }
+.step-content code {
+  background: rgba(255,255,255,0.15);
+  padding: 0.1em 0.45em;
+  border-radius: 4px;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.88em;
+}
+
+/* ----------------------------------------------------------------
+   Footer
+   ---------------------------------------------------------------- */
+.site-footer {
+  background: var(--text-dark);
+  color: var(--gray-mid);
+  padding: 3rem 0 2rem;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.footer-logo { height: 36px; width: auto; border-radius: 0; filter: brightness(0) invert(1); opacity: 0.85; }
+
+.footer-tagline {
+  font-size: 1.1rem;
+  color: var(--gray-light);
+  margin: 0;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-nav a {
+  color: var(--gray-mid);
+  font-size: 0.9rem;
+  transition: color var(--transition);
+}
+.footer-nav a:hover { color: var(--teal-light); text-decoration: none; }
+
+/* ----------------------------------------------------------------
+   Code block (used in Stealth Semantics)
+   ---------------------------------------------------------------- */
+.code-block {
+  background: #1a2010;
+  color: #d4e89a;
+  border-radius: var(--radius);
+  padding: 1.5rem 1.75rem;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 0.84rem;
+  line-height: 1.65;
+  text-align: left;
+  overflow-x: auto;
+  margin: 1.75rem auto 0;
+  max-width: 640px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+}
+.code-block .cm  { color: var(--teal-light); font-style: italic; }   /* comment */
+.code-block .k   { color: var(--green-light); }                       /* key */
+.code-block .v   { color: #ffffff; }                                  /* value */
+.code-block .uri { color: #a8d8e8; }                                  /* URI */
+
+/* ----------------------------------------------------------------
+   Pull quote
+   ---------------------------------------------------------------- */
+.pull-quote {
+  border-left: 4px solid var(--teal);
+  padding: 1rem 1.5rem;
+  margin: 2rem auto 0;
+  max-width: 640px;
+  background: var(--off-white);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-style: italic;
+  color: var(--text-mid);
+  font-size: 0.97rem;
+  text-align: left;
+}
+.pull-quote cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: normal;
+  font-size: 0.82rem;
+  color: var(--text-light);
+}
+
+/* ----------------------------------------------------------------
+   Grouped artifact tags
+   ---------------------------------------------------------------- */
+.artifact-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.artifact-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.artifact-group-label {
+  flex-shrink: 0;
+  width: 148px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-light);
+  padding-top: 0.38rem;
+}
+.artifact-group-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+/* ----------------------------------------------------------------
+   Ecosystem section
+   ---------------------------------------------------------------- */
+.ecosystem-section {
+  padding: 5rem 0;
+  background: var(--off-white);
+  text-align: center;
+}
+.ecosystem-section h2 { margin-bottom: 0.75rem; }
+.ecosystem-section > .container > p { max-width: 640px; margin: 0 auto; }
+
+.ecosystem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+  text-align: left;
+}
+.ecosystem-card {
+  background: var(--white);
+  border: 1px solid var(--gray-light);
+  border-radius: var(--radius);
+  padding: 1.35rem 1.5rem;
+  transition: box-shadow var(--transition), transform var(--transition);
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+.ecosystem-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.ecosystem-card h3 {
+  color: var(--teal);
+  margin-bottom: 0.35rem;
+  font-size: 1rem;
+}
+.ecosystem-card p {
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  margin: 0;
+  line-height: 1.55;
+}
+
+/* ----------------------------------------------------------------
+   Community / Who uses LinkML section
+   ---------------------------------------------------------------- */
+.community-section {
+  padding: 5rem 0;
+  background: var(--white);
+  text-align: center;
+}
+.community-section h2 { margin-bottom: 0.75rem; }
+.community-section > .container > p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.usage-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.usage-item {
+  background: var(--off-white);
+  border: 1px solid var(--gray-light);
+  border-radius: var(--radius);
+  padding: 0.55rem 1.1rem;
+  font-size: 0.86rem;
+  font-weight: 500;
+  color: var(--text-mid);
+}
+
+.community-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+}
+.stat {
+  text-align: center;
+}
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--teal);
+  line-height: 1;
+}
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-top: 0.3rem;
+}
+
+.citation {
+  margin-top: 2.5rem;
+  font-size: 0.83rem;
+  color: var(--text-light);
+  font-style: italic;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.citation a { color: var(--teal); }
+
+/* ----------------------------------------------------------------
+   Google Fonts fallback (loaded via <link> in HTML)
+   ---------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ----------------------------------------------------------------
+   Responsive
+   ---------------------------------------------------------------- */
+@media (max-width: 840px) {
+  .hero-inner,
+  .feature-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .feature-reverse { direction: ltr; }
+
+  .hero { padding: 3.5rem 0 3rem; }
+  .hero-text p { max-width: 100%; }
+
+  .feature,
+  .feature-centered,
+  .steps { padding: 3.5rem 0; }
+
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 1.5rem;
+    border-bottom: 2px solid var(--gray-light);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .main-nav.open { display: flex; }
+
+  .nav-toggle { display: block; }
+  .nav-cta { display: none; }
+
+  .header-inner { position: relative; }
+}
+
+@media (max-width: 480px) {
+  .artifact-tags { gap: 0.4rem; }
+  .steps-list li { padding: 1rem 1.1rem; }
+  .artifact-group { flex-direction: column; gap: 0.4rem; }
+  .artifact-group-label { width: auto; }
+  .community-stats { gap: 2rem; }
+}
