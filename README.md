@@ -1,22 +1,37 @@
-![uBuild Blocks](uploads/2018/06/21/theme.png)
+# linkml.github.io
 
-# uBuild Jekyll Theme
+Source for the [linkml.io](https://linkml.io) splash page. Plain HTML and CSS — no build step, no dependencies.
 
-[View the announcement post on Forestry.io](https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/#/)
+## Previewing locally
 
-`ubuild-jekyll` is a Jekyll theme designed to work with [Forestry](https://forestry.io/)'s [Blocks](https://forestry.io/blog/blocks-give-your-editors-the-power-to-build-pages/) feature.  This theme provides a set of page-level components and a pre-configured Forestry Blocks UI that will empower content editors to construct their own webpages.
+Open `index.html` directly in your browser:
 
-## Quick Start
+```bash
+open index.html
+```
 
-[![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=forestryio/ubuild-jekyll&provider=github&engine=jekyll)
+Or double-click it in Finder. No server required.
 
-*This option is available for Github and Gitlab users only. If you use Bitbucket please use the Alternative Setup*
+## Making edits
 
-## Alternative Setup
+| What to change | Where |
+|---|---|
+| Headline, description, hero copy | `index.html` — see the `HERO` section comment |
+| Navigation links | `index.html` — see the `HEADER` section comment |
+| Community logos, stats, ecosystem cards | `index.html` — inline comments mark each section |
+| Styles, colors, layout | `css/styles.css` |
+| Images and logos | `uploads/` |
 
-1. Fork this repo
-2. [Sign up for a free Forestry account](https://app.forestry.io/signup)
-3. [Import your repo](https://forestry.io/docs/quickstart/setup-site/#import-site-from-repo) as a new Jekyll project
+## Deployment
 
-To use the page builder, select the **Page Builder** template when creating a new page.
+Pushing to `master` triggers a GitHub Pages build and deploys automatically to [linkml.io](https://linkml.io). No action needed beyond merging a PR.
 
+## File structure
+
+```
+index.html        # entire site — one file, section comments throughout
+css/styles.css    # all styles
+uploads/          # images and logos
+CNAME             # linkml.io
+.nojekyll         # disables Jekyll processing on GitHub Pages
+```
